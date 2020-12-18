@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- 1. 태그명.클래스명 후 엔터 -->
+    <!-- 2. .클래스명 = div -->
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls width="250">
+            <source src="video/movie.mp4" type="video/mp4" />
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+    </section>
+
+    <!-- Video Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#CloneCoding</li>
+                <li>#Gunwoo</li>
+                <li>#Youtube</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라
+                     만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과
+                    함께하는 프론트엔드 실전 입문편ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ 
+                </span>
+                <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+            </div>
+            <span class="views">1M views 1 month ago</span>
+        </div>
+        <!-- Actions -->
+        <div class="actions">
+            <li><button><i class="fas fa-thumbs-up active"></i>1K</button></li>
+            <li><button><i class="fas fa-thumbs-down"></i>0</button></li>
+            <li><button><i class="fas fa-share"></i>Share</button></li>
+            <li><button><i class="fas fa-plus"></i>Save</button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i>Report</button></li>
+        </div>
+        <!-- Channel Description-->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/avatar.jpg" alt="">
+                <div class="info">
+                    <span class="name">거누코딩</span>
+                    <span class="subscribers">1M subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <img src="image/1.jpg" alt="">
+                <div class="info">
+                    <span class="title">프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면? 웹개발
+                        입문자편 강의를 시작합니다</span>
+                    <span class="name">드림코딩 by 엘리</span>
+                    <span class="views">82K views</span>
+                </div>
+                <div class="button moreBtn"><i class="fas fa-ellipsis-v"></i></div>
+            </li>
+            <li class="item">
+                <img src="image/2.jpg" alt="">
+                <div class="info">
+                    <span class="title">프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면? 웹개발
+                        입문자편 강의를 시작합니다</span>
+                    <span class="name">드림코딩 by 엘리</span>
+                    <span class="views">82K views</span>
+                </div>
+                <div class="button moreBtn"><i class="fas fa-ellipsis-v"></i></div>
+            </li><li class="item">
+                <img src="image/3.jpg" alt="">
+                <div class="info">
+                    <span class="title">프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면? 웹개발
+                        입문자편 강의를 시작합니다</span>
+                    <span class="name">드림코딩 by 엘리</span>
+                    <span class="views">82K views</span>
+                </div>
+                <div class="button moreBtn"><i class="fas fa-ellipsis-v"></i></div>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
